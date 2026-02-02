@@ -56,11 +56,17 @@ ini adalah repository untuk dokumentasi proses pembuatan pcb menggunakan cnc unt
 17. Disable semua file gerber selain Combo_Gerber
     <img width="402" height="242" alt="image" src="https://github.com/user-attachments/assets/82b6b6fe-ece8-42c4-a5ef-c03b5aace1ad" />
 
-18. Untuk sementara ini, karena software EZCAD2 nya agak anomali, dan belum diriset kembali, Jika jalur yang ingin kita laser adalah top layer, maka perlu diflip terlebih dahulu. Caranya klik file 'Combo_Gerber' tadi -> klik Options -> Flip on X Axis. Jika yang ingin dilaser adalah bottom layer, maka tidak perlu diflip.
+18. Setelah itu klik file gerber nya, lalu klik tab Tool -> Invert Gerber tool -> Invert Gerbert
+   <img width="687" height="732" alt="image" src="https://github.com/user-attachments/assets/01e4f47a-3e2e-4a69-82a5-816a86cbbbed" />
+   
+19. Disable file combo gerber sebelumnya
+   <img width="516" height="475" alt="image" src="https://github.com/user-attachments/assets/d9ad355f-65fb-4123-8783-4812f2153183" />
+
+20. Untuk sementara ini, karena software EZCAD2 nya agak anomali, dan belum diriset kembali, Jika jalur yang ingin kita laser adalah top layer, maka perlu diflip terlebih dahulu. Caranya klik file 'Combo_Gerber_Inverted' tadi -> klik Options -> Flip on X Axis. Jika yang ingin dilaser adalah bottom layer, maka tidak perlu diflip.
 <img width="420" height="268" alt="image" src="https://github.com/user-attachments/assets/7bf0650d-454c-4cf0-aef1-b0447c64570d" />
 
-19. Kemudian, Klik file 'Combo_Gerber' kembali -> klik tab File -> Export -> Export SVG
+21. Kemudian, Klik file 'Combo_Gerber_Inverted' kembali -> klik tab File -> Export -> Export SVG
     <img width="532" height="438" alt="image" src="https://github.com/user-attachments/assets/9508a661-e4fb-4ec9-82e3-2d19e5111195" />
  
-20. Buka, aplikasi EZCAD2 (pastikan plug terlebih dahulu usb dari laser ke pc/laptop). Klik File -> Import File -> Import vector file -> pilih file svg yg ingin dilaser.
-21. setelah muncul, 
+22. Buka, aplikasi EZCAD2 (pastikan plug terlebih dahulu usb dari laser ke pc/laptop). Klik File -> Import File -> Import vector file -> pilih file svg yg ingin dilaser.
+23. setelah muncul, 
